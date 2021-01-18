@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>  
+    <title>Clinica Veterinaria</title>
+    <meta name="keywords" content="Mascotas, veterinario, veterinaria, salud, cirugía, perros, gatos, conejos">
+    <meta name="description"  content="Sacar turno con los mejores especialistas en animales">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4fca2191b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row ">
+          
+        <nav class="navbar navbar-expand-lg navbar-light nav__background">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="imagenes\logo.jpg" alt="Logo" class="header__logo" ></a>
+            <a class="navbar-brand" href="index.html"><p class="header__titulo">Clinica Veterinaria</p></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              </ul>
+              <form class="d-flex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active nav__espacios" aria-current="page" href="index.html">Pagina principal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active nav__espacios" href="tienda.html">Tienda Online</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active nav__espacios" href="turnos.html">Turnos</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle active nav__espacios" href="Contactenos.html" id="navbardrop" data-toggle="dropdown">
+                        Contactenos </a>
+                       <div class="dropdown-menu">
+                         <a class="dropdown-item active" href="Contactenos.html">Enviar Mail</a>
+                         <a class="dropdown-item active" href="Contactenos.html">Mapa</a>
+                       </div>   
+                      </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </nav>
+          </div>   
+    <div class="row espacios">
+    <section class="col-xl-6 section__background">
+        <form  action=/action_page.php method="POST" class="formulario__turnos">                              <!-- Incio de formulario para contacto por mail -->
+         <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" autofocus>
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input class="form-control" type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido">                <!-- Nombre, apellido y mail -->
+        </div>
+         <div class="form-group">
+            <label for="mail">Mail:</label>
+            <input class="form-control" type= "email" name="mail" id="mail" placeholder="Ingrese su Mail">
+        </div>  
+        <div class="form-group">
+            <label for="Ecivil">Veterinario:</label> 
+            <select class="form-control" name="Ecivil" id="Ecivil">
+                <option value="Veterinario-1">Veterinario-1</option>
+                <option value="Veterinario-2">Veterinario-2</option>                               <!-- Estado civil con opciones -->
+                <option value="Veterinario-3">Veterinario-3</option>
+                <option value="Veterinario-4">Veterinario-4</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Fecha">Fecha:</label>
+            <input type="date" class="form-control" id="Fecha" name="Fecha">
+        </div>
+        <div class="form-group">
+            <label for="hora">Hora:</label>
+             <input type="time" class="form-control" id="hora" name="hora"> 
+        </div>   
+        <div class="form-group"> 
+            <label for="message">Comentarios:</label>                                                <!-- textarea para consulta -->
+            <textarea name="message" class="form-control inputForm" rows="10" cols="30"> </textarea> 
+        </div>
+          
+            <input class="espacios" type="submit" value="Submit">.                                           <!-- boton submit y reset -->
+            <input class="espacios" type="reset" value="Borrar información">
+        </form>
+    </section>
+    <div class="col-xl-6 section__background">
+        <aside>
+        <h4>Horarios de los veterinarios:</h4>
+        <p>(Pase el mouse por encima para ver mas información)</p>
+    <div class="formulario__veterinario-1">
+        <p><ins>Veterinario-1:</ins></p>
+        <ul>
+          <li>Horario: 9 a 18h</li>
+          <li>Dias de atencion: Lunes, miercoles y viernes</li>
+          <li>Especialidad: Clinico</li>
+        </ul>
+      </div>
+      <div class="formulario__veterinario-2">
+        <p><ins>Veterinario-2:</ins></p>
+        <ul>
+          <li>Horario: 9 a 18h</li>
+          <li>Dias de atencion: Martes, jueves y sabados</li>
+          <li>Especialidad: Clinico</li>
+        </ul>
+      </div>
+      <div class="formulario__veterinario-3">
+        <p><ins>Veterinario-3:</ins></p>
+        <ul>
+          <li>Horario: 9 a 18h</li>
+          <li>Dias de atencion: Lunes, miercoles y viernes</li>
+          <li>Especialidad: Cirugia  </li>
+        </ul>
+      </div>
+      <div class="formulario__veterinario-4">
+        <p><ins>Veterinario-4:</ins></p>
+        <ul>
+          <li>Horario: 9 a 18h</li>
+          <li>Dias de atencion: Martes, jueves y sabados</li>
+          <li>Especialidad: Cirugiay anestesista</li>
+        </ul>
+    </div>
+    </aside>
+    </div>
+    </div>
+    <footer class="row footer">
+      <div class="col-xl-3">
+              <ul class="footer__info">
+                  <li>Productos: </li> 
+                  <li>ProPlan</li>
+                  <li>Royal Canin</li>
+                  <li>Dog Chow</li>
+              </ul>
+      </div>
+      <div class="col-xl-3">
+              <ul class="footer__info">
+                  <li>Sucursales: </li> 
+                  <li>742 Evergreen Terrace</li>
+                  <li>742 Evergreen Terrace</li>
+                  <li>Para ver en mapa click <a href="Contactenos.html">aqui</a> </li>
+              </ul>
+      </div>
+      <div class="col-xl-3">
+              <ul class="footer__info">
+                  <li>Contacto: </li> 
+                  <li>4999-999</li>
+                  <li>11-4999-9998</li>
+                  <li>742 Evergreen Terrace</li>
+              </ul>
+      </div>
+      <div class="col-xl-3 footer__info">
+          EN LAS REDES: <br>
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x"></i> </a>
+          <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x"></i> </a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram-square fa-3x"></i> </a>
+     </div>
+  </footer>  
+  <div class="row">
+    <p class="col-xl-12 footer__copyright centerText">Copyright © 2021 por Nicolas Boland</p>
+  </div>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+      <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script><script  src="./script.js"></script> 
+</body>
+</html>

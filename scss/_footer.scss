@@ -1,0 +1,13 @@
+
+.footer {
+    align-content: center;
+    @extend .centerText;
+    background-color: #533b4d; }
+  
+  .footer__info {
+    color: white;
+    @extend .listaSinesqtilo; }
+    .footer__copyright {
+        background-color: black;
+        color: white;
+    }

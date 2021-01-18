@@ -1,0 +1,55 @@
+.formulario__turnos {
+    background-color: aliceblue;
+  }
+  .form-group {
+    width: 70%;
+    padding: 10px;
+  }
+ 
+  $i:1;
+
+@for $i from 1 to 5 {
+  
+  .formulario__veterinario-#{$i} {
+    border: 1px solid #eee;
+  }
+  .formulario__veterinario-#{$i} > ul {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+  .formulario__veterinario-#{$i}:hover > ul {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+}
+
+$veterinario:Veterinario-1;
+
+ @if $veterinario == Veterinario-1 {
+  .formulario__veterinario-1 > ul {
+    visibility: visible;
+    opacity: 1;}
+  } @else if $veterinario == Veterinario-2 {
+    .formulario__veterinario-2 > ul {
+      visibility: visible;
+      opacity: 1;}
+    }@else if $veterinario == Veterinario-3 {
+      .formulario__veterinario-3 > ul {
+        visibility: visible;
+        opacity: 1;}
+      }@else  {
+        .formulario__veterinario-4 > ul {
+          visibility: visible;
+          opacity: 1;}
+        }
+
+
+
+ 
+
+/*
+ @if $animal == gato { color:red;} @else {color:blue;}
+
+ */
