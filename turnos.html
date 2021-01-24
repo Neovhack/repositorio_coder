@@ -18,21 +18,20 @@
 <body>
     <div class="container-fluid">
       <header>
-      <div class="row ">
+        <div class="row ">
           
-        <nav class="navbar navbar-expand-lg navbar-light nav__background">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img src="imagenes\logo.jpg" alt="Logo" class="header__logo" ></a>
-            <a class="navbar-brand" href="index.html"><p class="header__titulo">Clinica Veterinaria</p></a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              </ul>
-              <form class="d-flex">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
+          <nav class="navbar navbar-expand-lg navbar-light nav__background">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="imagenes\logo.jpg" alt="Logo" class="header__logo" ><p class="header__titulo">Clinica Veterinaria</p></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNavDropdown" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <form class="d-flex">
+            <ul class="navbar-nav">
+                <li class="nav-item">
                     <a class="nav-link active nav__espacios" aria-current="page" href="index.html">Pagina principal</a>
                   </li>
                   <li class="nav-item">
@@ -41,21 +40,16 @@
                   <li class="nav-item">
                       <a class="nav-link active nav__espacios" href="turnos.html">Turnos</a>
                     </li>
-                    <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle active nav__espacios" href="Contactenos.html" id="navbardrop" data-toggle="dropdown">
-                        Contactenos </a>
-                       <div class="dropdown-menu">
-                         <a class="dropdown-item active" href="Contactenos.html">Enviar Mail</a>
-                         <a class="dropdown-item active" href="Contactenos.html">Mapa</a>
-                       </div>   
-                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link active nav__espacios" href="Contactenos.html">Contactenos</a>
+                    </li>
                 </ul>
-              </form>
+            </form>
+                </div>
             </div>
-          </div>
-        </nav>
-          </div>  
-        </header> 
+          </nav>
+            </div> 
+          </header> 
     <div class="row espacios">
     <main class="col-xl-6 section__background">
         <form  action=/action_page.php method="POST" class="formulario__turnos">                              <!-- Incio de formulario para contacto por mail -->
@@ -97,7 +91,7 @@
             <input class="espacios" type="reset" value="Borrar información">
         </form>
       </main>
-    <div class="col-xl-6 section__background">
+    <div class="col-xl-6">
         <aside>
         <h4>Horarios de los veterinarios:</h4>
         <p>(Pase el mouse por encima para ver mas información)</p>

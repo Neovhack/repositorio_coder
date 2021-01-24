@@ -3,8 +3,9 @@
   height: 150px; }
 
 .sectionV__titulo {
-  font-family: 'SansitaSwashed', cursive;
-  padding: 45px; }
+  font-size: 50px;
+  padding: 45px;
+  font-family: AustieBostKittenKlub; }
 
 .sectionV__texto {
   text-align: center;
@@ -19,6 +20,12 @@
 .section__background {
   background-color: #ddd; }
 
+.lineaH {
+  border: 0;
+  height: 3px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+
 .header__titulo {
   color: black;
   font-family: 'SansitaSwashed', cursive;
@@ -27,7 +34,8 @@
 
 .header__logo {
   width: 60px;
-  height: 55px; }
+  height: 55px;
+  float: left; }
 
 .nav__background {
   background-color: white;
