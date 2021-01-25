@@ -3,10 +3,13 @@
   padding: 45px;
   font-family: AustieBostKittenKlub; }
 
-.sectionV__texto {
-  text-align: center;
+.sectionV__info {
   width: 50%;
   float: left; }
+
+.sectionV__tecto {
+  text-align: left;
+  margin-right: 20px; }
 
 .sectionV__imagen {
   width: 320px;
