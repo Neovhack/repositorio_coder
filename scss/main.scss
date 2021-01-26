@@ -16,5 +16,5 @@ body {
     background: -prefix-linear-gradient(right top, #F4FFEE, white);
     background: linear-gradient(to bottom left, #F4FFEE, white);
     overflow-x: hidden !important ;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }

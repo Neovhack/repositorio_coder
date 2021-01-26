@@ -7,13 +7,12 @@
   width: 50%;
   float: left; }
 
-.sectionV__tecto {
+.sectionV__texto {
   text-align: left;
   margin-right: 20px; }
 
 .sectionV__imagen {
   width: 310px;
-  float: left;
   height: 320px; }
 
 .section__background {
@@ -33,7 +32,12 @@
 
 .sectionP__imagen {
   height: 300px;
-  width: 400px; }
+  max-width: 400px;
+  width: 100%; }
+
+@media screen and (max-width: 910px) {
+  .sectionV__info {
+    width: 100%; } }
 
 .header__titulo {
   color: black;
@@ -178,6 +182,9 @@
   margin-left: auto !important;
   margin-right: auto !important; }
 
+.maps {
+  max-width: 100%; }
+
 @media screen and (max-width: 600px) {
   .lista li {
     display: block; } }
@@ -275,4 +282,4 @@ body {
   background: -prefix-linear-gradient(right top, #F4FFEE, white);
   background: linear-gradient(to bottom left, #F4FFEE, white);
   overflow-x: hidden !important;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth !important; }

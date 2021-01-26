@@ -11,13 +11,13 @@
   width: 50%; 
   float: left;
 }
-.sectionV__tecto {
+.sectionV__texto {
   text-align: left;
   margin-right: 20px;
 }
 .sectionV__imagen {
   width: 310px;
-  float: left;
+  
   height: 320px;
 }
 .section__background {
@@ -39,5 +39,13 @@
 
 .sectionP__imagen {
   height:300px;
-   width: 400px;
+   max-width: 400px;
+   width: 100%;
+}
+@media screen and (max-width: 910px) {
+  .sectionV__info {
+ 
+    width: 100%; 
+   
+  }
 }
