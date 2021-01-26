@@ -3,6 +3,7 @@
 .sectionV__titulo {
   font-size: 50px;
   padding: 45px;
+  
   font-family: AustieBostKittenKlub;
 }
 .sectionV__info {
@@ -15,7 +16,7 @@
   margin-right: 20px;
 }
 .sectionV__imagen {
-  width: 320px;
+  width: 310px;
   float: left;
   height: 320px;
 }
@@ -28,4 +29,15 @@
   height: 3px;
   background: #333;
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.sectionV__bordesP {
+  border: white 8px inset;
+}
+.sectionV__bordesV {
+  border: white 8px outset;
+}
+
+.sectionP__imagen {
+  height:300px;
+   width: 400px;
 }

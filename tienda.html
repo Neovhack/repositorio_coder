@@ -16,15 +16,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/4fca2191b6.js" crossorigin="anonymous"></script>
     <style>
-      @font-face { font-family: AustieBostKittenKlub; src: url('AustieBostKittenKlub.ttf'); } 
+      @font-face { font-family: AustieBostKittenKlub; src: url('Fuentes/AustieBostKittenKlub.ttf'); } 
    </style>
 </head>
 <body>
   <div class="container-fluid">
     <header>
       <div class="row ">
-        
-        <nav class="navbar navbar-expand-lg navbar-light nav__background">
+        <nav class="navbar navbar-expand-lg navbar-light nav__background fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="imagenes\logo.jpg" alt="Logo" class="header__logo" ><p class="header__titulo">Clinica Veterinaria</p></a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,6 +38,10 @@
                   <a class="nav-link active nav__espacios" aria-current="page" href="index.html">Pagina principal</a>
                 </li>
                 <li class="nav-item">
+                  <li class="nav-item">
+                      <a class="nav-link active nav__espacios" aria-current="page" href="Peluqueria.html">Peluqueria</a>
+                    </li>
+                    <li class="nav-item">
                   <a class="nav-link active nav__espacios" href="tienda.html">Tienda Online</a>
                 </li>
                 <li class="nav-item">
@@ -55,10 +58,10 @@
           </div> 
         </header> 
 
-      <main>
-   <div class="row">
+      <main class="margenTitulo">
+   <div class="row margenSeparador">
     <div class="col-xl-12  centerText">   
-      <h2 class="sectionV__titulo">¡Bienvenidos a la Tienda Online!</h2> 
+      <h1 class="sectionV__titulo">¡Bienvenidos a la Tienda Online!</h1> 
       <p>Aqui puede encontrar los mejores precios para los  juguetes que mas le van a gustar a su mascota!</p>
  
     </div>
@@ -136,7 +139,7 @@
     </div>
   </main>  
 
-    <section class="row espacios">
+    <section class="row margenSeparador">
       <div class="col-xl-6">
         <h5 class="centerText"><ins>Productos por Categoria:</ins> </h5>
         <div id="carousel2" class="carousel slide carousel-dark" data-bs-ride="carousel">
@@ -208,35 +211,37 @@
           </div>
         </section>    
         <footer class="row footer">
-          <div class="col-xl-3">
+          <div class="footer__posDer">
                   <ul class="footer__info">
-                      <li>Productos: </li> 
+                      <li><ins> Productos: </ins></li> 
                       <li>ProPlan</li>
                       <li>Royal Canin</li>
                       <li>Dog Chow</li>
                   </ul>
           </div>
-          <div class="col-xl-3">
+          <div class="footer__posDer">
                   <ul class="footer__info">
-                      <li>Sucursales: </li> 
+                      <li><ins>Sucursales:</ins> </li> 
                       <li>742 Evergreen Terrace</li>
                       <li>742 Evergreen Terrace</li>
                       <li>Para ver en mapa click <a href="Contactenos.html">aqui</a> </li>
                   </ul>
           </div>
-          <div class="col-xl-3">
+          <div class="footer__posIzq">
                   <ul class="footer__info">
-                      <li>Contacto: </li> 
+                      <li><ins>Contacto: </ins></li> 
                       <li>4999-999</li>
                       <li>11-4999-9998</li>
                       <li>742 Evergreen Terrace</li>
                   </ul>
           </div>
-          <div class="col-xl-3 footer__info">
-              EN LAS REDES: <br>
+          <div class="footer__posIzq">
+            <div class="footer__info" >
+              <ins> EN LAS REDES:</ins> <br>
               <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x"></i> </a>
               <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x"></i> </a>
               <a href="https://www.instagram.com"><i class="fab fa-instagram-square fa-3x"></i> </a>
+            </div>
          </div>
       </footer>  
       <div class="row">

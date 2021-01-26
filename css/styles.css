@@ -12,7 +12,7 @@
   margin-right: 20px; }
 
 .sectionV__imagen {
-  width: 320px;
+  width: 310px;
   float: left;
   height: 320px; }
 
@@ -24,6 +24,16 @@
   height: 3px;
   background: #333;
   background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+
+.sectionV__bordesP {
+  border: white 8px inset; }
+
+.sectionV__bordesV {
+  border: white 8px outset; }
+
+.sectionP__imagen {
+  height: 300px;
+  width: 400px; }
 
 .header__titulo {
   color: black;
@@ -37,8 +47,7 @@
   float: left; }
 
 .nav__background {
-  background-color: white;
-  position: sticky; }
+  background-color: white; }
 
 .nav__background li:hover {
   background-color: #ECECEC; }
@@ -111,14 +120,28 @@
  */
 .footer {
   align-content: center;
-  background-color: #533b4d; }
+  background-color: #533b4d;
+  display: flex;
+  flex-direction: row; }
+
+.footer__posDer {
+  flex: 25%; }
+
+.footer__posIzq {
+  flex: 25%; }
 
 .footer__info {
-  color: white; }
+  color: white;
+  margin-top: 5px; }
+  .footer__info li {
+    padding: 5px; }
+  .footer__info a {
+    padding: 5px; }
 
 .footer__copyright {
   background-color: black;
-  color: white; }
+  color: white;
+  margin-bottom: 0px !important; }
 
 #sinEspacio {
   padding: 0px;
@@ -141,11 +164,19 @@
   border-radius: 10px 10px 10px 10px; }
 
 .fontSize {
-  font-size: 20px; }
+  font-size: 24px; }
 
-.margenIndex {
+.margenSeparador {
   margin-bottom: 25px;
   padding-bottom: 35px; }
+
+.margenTitulo {
+  margin-top: 100px !important; }
+
+.centrarImagenes {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important; }
 
 @media screen and (max-width: 600px) {
   .lista li {
@@ -208,6 +239,12 @@
     display: block;
     visibility: visible; } }
 
+@media screen and (max-width: 910px) {
+  .footer__posDer {
+    flex: 50%; }
+  .footer__posIzq {
+    flex: 50%; } }
+
 .tienda__imagenes1 {
   width: 200px !important;
   height: 320px !important; }
@@ -216,5 +253,26 @@
   width: 300px !important;
   height: 300px !important; }
 
+.requisitos__parrafo {
+  text-shadow: 2px 2px 5px red;
+  font-size: 20px; }
+
+.peluqueria__parrIntro {
+  width: 70%;
+  margin: auto; }
+
+.peluqeuria__bordes {
+  border-style: double; }
+
+.peluqueria__imagenes {
+  width: 17rem;
+  height: 11rem; }
+
 * {
   box-sizing: border-box; }
+
+body {
+  background: -prefix-linear-gradient(right top, #F4FFEE, white);
+  background: linear-gradient(to bottom left, #F4FFEE, white);
+  overflow-x: hidden !important;
+  scroll-behavior: smooth; }

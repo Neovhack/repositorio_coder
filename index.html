@@ -16,7 +16,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/4fca2191b6.js" crossorigin="anonymous"></script>
     <style>
-       @font-face { font-family: AustieBostKittenKlub; src: url('AustieBostKittenKlub.ttf'); } 
+       @font-face { font-family: AustieBostKittenKlub; src: url('Fuentes/AustieBostKittenKlub.ttf'); } 
     </style>
    
 </head>
@@ -24,8 +24,7 @@
     <div class="container-fluid ">
       <header>
         <div class="row ">
-          
-          <nav class="navbar navbar-expand-lg navbar-light nav__background">
+          <nav class="navbar navbar-expand-lg navbar-light nav__background fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="imagenes\logo.jpg" alt="Logo" class="header__logo" ><p class="header__titulo">Clinica Veterinaria</p></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,6 +39,10 @@
                     <a class="nav-link active nav__espacios" aria-current="page" href="index.html">Pagina principal</a>
                   </li>
                   <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link active nav__espacios" aria-current="page" href="Peluqueria.html">Peluqueria</a>
+                      </li>
+                      <li class="nav-item">
                     <a class="nav-link active nav__espacios" href="tienda.html">Tienda Online</a>
                   </li>
                   <li class="nav-item">
@@ -48,20 +51,19 @@
                     <li class="nav-item">
                       <a class="nav-link active nav__espacios" href="Contactenos.html">Contactenos</a>
                     </li>
-                    
                 </ul>
             </form>
                 </div>
             </div>
           </nav>
             </div> 
-          </header>
+          </header> 
         
-        <main class="row margenIndex">
-                <h2 class="sectionV__titulo">¡Bienvenidos a la Clinica Veterinaria!</h2> 
-                <div class="col-xl-6">
+        <main class="row margenSeparador margenTitulo">
+                <h1 class="sectionV__titulo">¡Bienvenidos a la Clinica Veterinaria!</h1> 
+                <div class="col-xl-6 sectionV__bordesV">
                     <div class="sectionV__info">
-                        <p style="font-size: 25px; " ><ins>Servicio Veterinario:</ins></p>  
+                        <p class="fontSize"><ins>Servicio Veterinario:</ins></p>  
                     <p class="sectionV__tecto">Desde 1997 brindamos la mejor atención veterinaria para tu mascota. 
                         Para ello, seleccionamos los mejores profesionales veterinarios, quienes continúan en capacitación y formación constante, para darle 
                         la más cálida y profesional atención a tu mascota. Además contamos con todo el equipo y los cuidados necesarios para realizar todo tipo de 
@@ -69,9 +71,9 @@
                     </div>  
                         <img class="imagenesContorno sectionV__imagen "  src="imagenes/main2.jpg" alt="Profesionales"> 
                 </div> 
-                <div class="col-xl-6">
+                <div class="col-xl-6 sectionV__bordesP">
                     <div class="sectionV__info">
-                        <p style="font-size: 25px;"><ins>Servicio de Peluquería:</ins></p>  
+                        <p class="fontSize"><ins>Servicio de Peluquería:</ins></p>  
                     <p class="sectionV__tecto">Brindamos el mejor servicio de peluqueria canina, nuestros profecionales tienen experiencia 
                         con todos las razas caninas y van a acondicionar a tu mascota como guste. Realizamos baños y cortes de pelo a pedido.
                         Para más informacion haga click <a href="#Pel">Aqui</a>
@@ -81,35 +83,37 @@
                 </div> 
               </main>
               <hr class="lineaH">
-            <section class="row margenIndex " id="Pel">
+            <section class="row margenSeparador " id="Pel">
                 <h4 class="sectionV__titulo">Servicios de Peluqueria</h4>
+                
                         <div class="col-xl-4 ">
                         <figure>
-                            <img class="imagenesContorno" style="height:300px; width: 400px;" src="imagenes/baños.jpg" alt="Baños">
-                            <figcaption style="text-align: center;" ><ins>Baños</ins></figcaption> <br>
+                            <img class="imagenesContorno sectionP__imagen" src="imagenes/baños.jpg" alt="Baños">
+                            <figcaption class="centerText"><ins>Baños</ins></figcaption> <br>
                             <p> Pensado especialmente para mascotas con piel delicada. Incluye baño con shampoo hipoalergénico, 
                                 secado y peinado. </p>
                           </figure>
                         </div>
-                        <div class="col-xl-4">
+                        <div class="col-xl-4 ">
                           <figure>
-                            <img class="imagenesContorno" style="height:300px; width: 400px;" src="imagenes/cortepelo.JPG" alt="Corte de razas">
-                            <figcaption style="text-align: center;" ><ins>Corte de razas</ins></figcaption> <br>
+                            <img class="imagenesContorno sectionP__imagen" src="imagenes/cortepelo.JPG" alt="Corte de razas">
+                            <figcaption class="centerText"><ins>Corte de razas</ins></figcaption> <br>
                             <p>Schnauzer, Caniche, Cocker Spaniel, Cocker Americano, Golden Retriever, Bichón, Border Collie, Fox Terrier,
                                 Yorkshire Terrier, Boyero de Berna, Chow Chow, Husky Siberiano, Pastor Alemán, Pastor Inglé, otras razas. </p>
                           </figure>
                         </div>
-                        <div class="col-xl-4">
+                        <div class="col-xl-4 ">
                             <figure>
-                                <img class="imagenesContorno" style="height:300px; width: 400px;" src="imagenes/corteuñas.jpg" alt="Corte de uñas">
-                            <figcaption style="text-align: center;" ><ins>Corte de uñas</ins></figcaption> <br>
+                                <img class="imagenesContorno sectionP__imagen" src="imagenes/corteuñas.jpg" alt="Corte de uñas">
+                            <figcaption class="centerText"><ins>Corte de uñas</ins></figcaption> <br>
                             <p>Previene heridas e infecciones por rotura de uñas y mantiene suaves las patitas de tu mascota. </p>
                           </figure>
                         </div>
+
             </section>
             <hr class="lineaH">
                 <section>
-                  <div class="row">
+                  <div class="row margenSeparador">
                 <div class="col-xl-12  centerText">   
                   <h4 class="sectionV__titulo">Tienda Online</h4>
               <p>En nuestra tienda puede encontrar los mejores articulos para su mascota al mejor precio posible!</p>
@@ -189,63 +193,65 @@
                 </div>
             </section>
             <hr class="lineaH">
-        <section class="row  " id="Vet">
+        <section class="row  margenSeparador" id="Vet">
             <h4 class="sectionV__titulo">Servicios de Veterinaria</h4>
                     <div class="col-xl-4 ">
                     <figure>
-                        <img class="imagenesContorno" style="height:300px; width: 400px;" src="imagenes/consultorio.jpg" alt="Consultorio Veterinario">
-                        <figcaption style="text-align: center;" ><ins>Consultorio Veterinario</ins></figcaption> <br>
+                        <img class="imagenesContorno sectionP__imagen" src="imagenes/consultorio.jpg" alt="Consultorio Veterinario">
+                        <figcaption class="centerText" ><ins>Consultorio Veterinario</ins></figcaption> <br>
                         <p> Hacemos foco en la salud y la prevención: Impulsamos buenos hábitos y cuidado responsable tanto 
                         para la salud y el bienestar de las mascotas como para que la familia pueda disfrutar el vínculo con sus animales. </p>
                       </figure>
                     </div>
                     <div class="col-xl-4">
                       <figure>
-                        <img class="imagenesContorno" style="height:300px; width: 400px;" src="imagenes/Cirugia.jpg" alt="Cirugia">
-                        <figcaption style="text-align: center;" ><ins>Cirugías</ins></figcaption> <br>
+                        <img class="imagenesContorno sectionP__imagen" src="imagenes/Cirugia.jpg" alt="Cirugia">
+                        <figcaption class="centerText"><ins>Cirugías</ins></figcaption> <br>
                         <p>Nuestros profesionales y asesores están preparados para acompañarte en este momento crítico de su 
                         vida. Realizamos cirugías generales y especiales. Consultá, sin cargo, cómo llevar adelante este procedimiento. </p>
                       </figure>
                     </div>
                     <div class="col-xl-4">
                         <figure>
-                            <img class="imagenesContorno" style="height:300px; width: 400px;" src="imagenes/castraciones.jpg" alt="Baño y Peluquería">
-                        <figcaption style="text-align: center;" ><ins>Castraciones</ins></figcaption> <br>
+                            <img class="imagenesContorno sectionP__imagen" src="imagenes/castraciones.jpg" alt="Baño y Peluquería">
+                        <figcaption class="centerText"><ins>Castraciones</ins></figcaption> <br>
                         <p>Castraciones de machos y hembras, caninos y felinos. </p>
                       </figure>
                     </div>
         </section>
 
         <footer class="row footer">
-            <div class="col-xl-3">
+            <div class="footer__posDer">
                     <ul class="footer__info">
-                        <li>Productos: </li> 
+                        <li><ins> Productos: </ins></li> 
                         <li>ProPlan</li>
                         <li>Royal Canin</li>
                         <li>Dog Chow</li>
                     </ul>
             </div>
-            <div class="col-xl-3">
+            <div class="footer__posDer">
                     <ul class="footer__info">
-                        <li>Sucursales: </li> 
+                        <li><ins>Sucursales:</ins> </li> 
                         <li>742 Evergreen Terrace</li>
                         <li>742 Evergreen Terrace</li>
                         <li>Para ver en mapa click <a href="Contactenos.html">aqui</a> </li>
                     </ul>
             </div>
-            <div class="col-xl-3">
+            <div class="footer__posIzq">
                     <ul class="footer__info">
-                        <li>Contacto: </li> 
+                        <li><ins>Contacto: </ins></li> 
                         <li>4999-999</li>
                         <li>11-4999-9998</li>
                         <li>742 Evergreen Terrace</li>
                     </ul>
             </div>
-            <div class="col-xl-3 footer__info">
-                EN LAS REDES: <br>
+            <div class="footer__posIzq">
+              <div class="footer__info" >
+                <ins> EN LAS REDES:</ins> <br>
                 <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x"></i> </a>
                 <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x"></i> </a>
                 <a href="https://www.instagram.com"><i class="fab fa-instagram-square fa-3x"></i> </a>
+              </div>
            </div>
         </footer>  
         <div class="row">
@@ -259,7 +265,7 @@
       <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
       <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
       <script  src="./script.js"></script> 
-      <script>
+       <script>
         $('.multi-item-carousel').on('slide.bs.carousel', function (e) {
       let $e = $(e.relatedTarget),
           itemsPerSlide = 3,

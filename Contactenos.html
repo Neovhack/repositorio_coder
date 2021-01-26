@@ -19,8 +19,7 @@
     <div class="container-fluid ">
       <header>
         <div class="row ">
-          
-          <nav class="navbar navbar-expand-lg navbar-light nav__background">
+          <nav class="navbar navbar-expand-lg navbar-light nav__background fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="imagenes\logo.jpg" alt="Logo" class="header__logo" ><p class="header__titulo">Clinica Veterinaria</p></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +34,10 @@
                     <a class="nav-link active nav__espacios" aria-current="page" href="index.html">Pagina principal</a>
                   </li>
                   <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link active nav__espacios" aria-current="page" href="Peluqueria.html">Peluqueria</a>
+                      </li>
+                      <li class="nav-item">
                     <a class="nav-link active nav__espacios" href="tienda.html">Tienda Online</a>
                   </li>
                   <li class="nav-item">
@@ -51,7 +54,7 @@
             </div> 
           </header> 
 
-        <main class="row espacios">
+        <main class="row espacios margenTitulo">
             <div class="col-xl-6">
                 <form  action=/action_page.php method="POST" class="formulario__turnos">                              <!-- Incio de formulario para contacto por mail -->
             <div class="form-group">
@@ -122,36 +125,38 @@
     </aside>
   </main>
     
-<footer class="row footer">
-    <div class="col-xl-3">
+  <footer class="row footer">
+    <div class="footer__posDer">
             <ul class="footer__info">
-                <li>Productos: </li> 
+                <li><ins> Productos: </ins></li> 
                 <li>ProPlan</li>
                 <li>Royal Canin</li>
                 <li>Dog Chow</li>
             </ul>
     </div>
-    <div class="col-xl-3">
+    <div class="footer__posDer">
             <ul class="footer__info">
-                <li>Sucursales: </li> 
+                <li><ins>Sucursales:</ins> </li> 
                 <li>742 Evergreen Terrace</li>
                 <li>742 Evergreen Terrace</li>
                 <li>Para ver en mapa click <a href="Contactenos.html">aqui</a> </li>
             </ul>
     </div>
-    <div class="col-xl-3">
+    <div class="footer__posIzq">
             <ul class="footer__info">
-                <li>Contacto: </li> 
+                <li><ins>Contacto: </ins></li> 
                 <li>4999-999</li>
                 <li>11-4999-9998</li>
                 <li>742 Evergreen Terrace</li>
             </ul>
     </div>
-    <div class="col-xl-3 footer__info">
-        EN LAS REDES: <br>
+    <div class="footer__posIzq">
+      <div class="footer__info" >
+        <ins> EN LAS REDES:</ins> <br>
         <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x"></i> </a>
         <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x"></i> </a>
         <a href="https://www.instagram.com"><i class="fab fa-instagram-square fa-3x"></i> </a>
+      </div>
    </div>
 </footer>  
 <div class="row">

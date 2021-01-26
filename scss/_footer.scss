@@ -2,12 +2,32 @@
 .footer {
     align-content: center;
     @extend .centerText;
-    background-color: #533b4d; }
+    background-color: #533b4d;
+    display: flex;
+    flex-direction: row;
+   }
+
+    .footer__posDer {
+      flex: 25%;
+    }
+    .footer__posIzq {
+      flex: 25%;
+    }
   
   .footer__info {
     color: white;
-    @extend .listaSinesqtilo; }
+    @extend .listaSinesqtilo;
+    margin-top: 5px;
+    li {
+      padding: 5px;
+    }
+    a {
+      padding: 5px;
+    }
+   }
     .footer__copyright {
         background-color: black;
         color: white;
+        margin-bottom: 0px !important;
     }
+    

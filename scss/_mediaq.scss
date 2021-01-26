@@ -63,3 +63,12 @@
       visibility: visible;
     }
   }
+
+  @media screen and (max-width: 910px) {
+    .footer__posDer {
+      flex: 50%;
+    }
+    .footer__posIzq {
+      flex: 50%;
+    }
+  }
