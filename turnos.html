@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src='js/turnosJS.js'></script>
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
@@ -56,24 +55,29 @@
           </header> 
     <div class="row espacios">
     <main class="col-xl-6 margenTitulo">
-        <form  action=/action_page.php method="POST" class="formulario__turnos">                              <!-- Incio de formulario para contacto por mail -->
-         <div class="form-group">
-            <label for="nombre">Nombre:</label>
-            <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" autofocus>
-          </div>
-          <div class="form-group">
-            <label for="apellido">Apellido:</label>
-            <input class="form-control" type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido">                <!-- Nombre, apellido y mail -->
-        </div>
-         <div class="form-group">
-            <label for="mail">Mail:</label>
-            <input class="form-control" type= "email" name="mail" id="mail" placeholder="Ingrese su Mail">
-        </div>  
+
+      <form id="formBusqueda" class="formulario__turnos">
+        <div class="form-group">
+          <label for="DNI">DNI(ingrese solo numeros):</label>
+          <input class="form-control" type="number" id="DNIbusqueda" name="DNI" placeholder="Ingrese su DNI">                <!-- Form busqueda por DNI -->
+          <input id="buscarPorDNI" class="espacios" type="submit" value="buscar">             
+      </div>
+      </form>
+
+        <form  id="altaUsuario" class="formulario__turnos">                              <!-- Formulario alta de usuario -->
+
+      </form>
+
+      <form id="formTurno" class="formulario__turnos" style="display: none;">
+        <div id="mensajeBienvenida"> </div>
         <div class="form-group">
             <label for="Ecivil">Veterinario:</label> 
             <select class="form-control" name="Ecivil" id="Ecivil">
+              <option selected>Elija un Veterinario</option>
+              <optgroup label="Atencion Clinica"></optgroup>
                 <option value="Veterinario-1">Veterinario-1</option>
-                <option value="Veterinario-2">Veterinario-2</option>                               <!-- Estado civil con opciones -->
+                <option value="Veterinario-2">Veterinario-2</option>  
+                <optgroup label="Cirugia"></optgroup>                             <!-- Form para sacar turno -->
                 <option value="Veterinario-3">Veterinario-3</option>
                 <option value="Veterinario-4">Veterinario-4</option>
             </select>
@@ -98,8 +102,7 @@
     <div class="col-xl-6 margenTitulo">
         <aside>
         <h4>Horarios de los veterinarios:</h4>
-        <p>(Pase el mouse por encima para ver mas información)</p>
-    <div class="formulario__veterinario-1">
+    <div class="formulario__veterinario-1 vetBorder" id="veterinario-1">
         <p><ins>Veterinario-1:</ins></p>
         <ul>
           <li>Horario: 9 a 18h</li>
@@ -107,7 +110,7 @@
           <li>Especialidad: Clinico</li>
         </ul>
       </div>
-      <div class="formulario__veterinario-2">
+      <div class="formulario__veterinario-2 vetBorder" id="veterinario-2">
         <p><ins>Veterinario-2:</ins></p>
         <ul>
           <li>Horario: 9 a 18h</li>
@@ -115,7 +118,7 @@
           <li>Especialidad: Clinico</li>
         </ul>
       </div>
-      <div class="formulario__veterinario-3">
+      <div class="formulario__veterinario-3 vetBorder" id="veterinario-3">
         <p><ins>Veterinario-3:</ins></p>
         <ul>
           <li>Horario: 9 a 18h</li>
@@ -123,7 +126,7 @@
           <li>Especialidad: Cirugia  </li>
         </ul>
       </div>
-      <div class="formulario__veterinario-4">
+      <div class="formulario__veterinario-4 vetBorder" id="veterinario-4">
         <p><ins>Veterinario-4:</ins></p>
         <ul>
           <li>Horario: 9 a 18h</li>
@@ -171,11 +174,14 @@
   <div class="row">
     <p class="col-xl-12 footer__copyright centerText">Copyright © 2021 por Nicolas Boland</p>
   </div>
+          <script src='js/jquery-3.6.0.min.js'></script>
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
         <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
       <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script><script  src="./script.js"></script> 
+      <script src='js/NuevoJS.js'></script>
+      
 </body>
 </html>

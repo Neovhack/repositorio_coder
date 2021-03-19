@@ -66,62 +66,12 @@
   width: 70%;
   padding: 10px; }
 
-.formulario__veterinario-1 {
+.vetBorder {
   border: 1px solid #eee; }
 
-.formulario__veterinario-1 > ul {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear; }
+.vetBorderSeleccionado {
+  border: 1px solid red; }
 
-.formulario__veterinario-1:hover > ul {
-  visibility: visible;
-  opacity: 1; }
-
-.formulario__veterinario-2 {
-  border: 1px solid #eee; }
-
-.formulario__veterinario-2 > ul {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear; }
-
-.formulario__veterinario-2:hover > ul {
-  visibility: visible;
-  opacity: 1; }
-
-.formulario__veterinario-3 {
-  border: 1px solid #eee; }
-
-.formulario__veterinario-3 > ul {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear; }
-
-.formulario__veterinario-3:hover > ul {
-  visibility: visible;
-  opacity: 1; }
-
-.formulario__veterinario-4 {
-  border: 1px solid #eee; }
-
-.formulario__veterinario-4 > ul {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear; }
-
-.formulario__veterinario-4:hover > ul {
-  visibility: visible;
-  opacity: 1; }
-
-.formulario__veterinario-1 > ul {
-  visibility: visible;
-  opacity: 1; }
-
-/*
- @if $animal == gato { color:red;} @else {color:blue;}
-
- */
 .footer {
   align-content: center;
   background-color: #533b4d;
