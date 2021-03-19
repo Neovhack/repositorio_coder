@@ -81,6 +81,7 @@ altaUsuario.onsubmit = function(e) {
         let titulo = document.createElement("h4");
         titulo.innerHTML = `Bienvenido ${usuarioNombre} ${usuarioApellido}`
         bienvenida.appendChild(titulo);
+    altaUsuario.style.display="none";    
 }
 //Cambiar color al veterianrio seleccionado
 
