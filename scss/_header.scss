@@ -1,0 +1,62 @@
+
+.navbar {
+    background: #40403E;
+  }
+  .navbar ul {
+      padding-right: 10px;
+  }
+  
+  .navbar ul li a {
+    color: #B3AFA8;
+  }
+  .navbar ul li a:hover {
+    background: #ff9900;
+    color: #fff;
+  }
+  .navbar li.active {
+    background: #ff9900;
+  }
+  .navbar li.active a {
+    color: #fff;
+  }
+  .navbar .navbar-toggle .icon-bar {
+    background: white;
+  }
+  
+  .header__clinica {
+    
+    color:  #B3AFA8;
+    font-family: 'SansitaSwashed', cursive;
+    font-size: 26px;
+    display: inline-block;
+     margin-bottom: 0px;
+     margin-top: 0px;   
+     }
+  
+  .header__logo {
+    width:55px;
+     height:49px;
+    margin: auto; 
+    }
+  
+  .shrink .navbar  {
+    background: #fff;
+  }
+  .shrink .navbar ul li a {
+    color: #010101;
+  }
+  .shrink .navbar a h4{
+    color: #010101;
+  }
+  .shrink .navbar-toggle .icon-bar {
+    background: #fafafa;
+  }
+
+  .header__titulo {
+      padding: 0px ;
+  }
+
+  .header__titulo2 {
+    padding: 0px ;
+    padding-top: 11px;
+}

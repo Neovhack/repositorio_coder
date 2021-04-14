@@ -1,0 +1,56 @@
+[{
+    "id": 21,
+    "nombre": "ProPlan Active Mind",
+    "precio" : 750,
+    "imagen": "imagenes/tienda/ProPlan Active Mind.png",
+    "cantidad" : 1
+},
+{
+    "id": 22,
+    "nombre": "ProPlan Adulto",
+    "precio" : 800,
+    "imagen": "imagenes/tienda/ProPlan Adulto.png",
+    "cantidad" : 1
+},
+{
+    "id": 23,
+    "nombre": "ProPlan Especializada",
+    "precio" : 500,
+    "imagen": "imagenes/tienda/ProPlan Especializada.png",
+    "cantidad" : 1
+},
+{
+    "id": 24,
+    "nombre": "ProPlan Mini",
+    "precio" : 400,
+    "imagen": "imagenes/tienda/ProPlan Mini.png",
+    "cantidad" : 1
+},
+{
+    "id": 25,
+    "nombre": "ProPlan Oferta",
+    "precio" : 600,
+    "imagen": "imagenes/tienda/ProPlan Oferta.png",
+    "cantidad" : 1
+},
+{
+    "id": 26,
+    "nombre": "ProPlan Puppy",
+    "precio" : 550,
+    "imagen": "imagenes/tienda/ProPlan Puppy.png",
+    "cantidad" : 1
+},
+{
+    "id": 27,
+    "nombre": "ProPlan Reduced Calories",
+    "precio" : 900,
+    "imagen": "imagenes/tienda/ProPlan Reduced Calories.png",
+    "cantidad" : 1
+},
+{
+    "id": 28,
+    "nombre": "ProPlan Sobres",
+    "precio" : 50,
+    "imagen": "imagenes/tienda/ProPlan Sobres.png",
+    "cantidad" : 1
+}]

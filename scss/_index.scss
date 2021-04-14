@@ -25,6 +25,7 @@
 }
 
 .lineaH {
+  width: 80%;
   border: 0;
   height: 3px;
   background: #333;
@@ -37,11 +38,15 @@
   border: white 8px outset;
 }
 
-.sectionP__imagen {
-  height:300px;
-   max-width: 400px;
+.img-responsive {
+  margin: auto;
+  height: auto;
    width: 100%;
 }
+.margenPeluqueria {
+  margin: 20px;
+}
+
 @media screen and (max-width: 910px) {
   .sectionV__info {
  

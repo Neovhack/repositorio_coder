@@ -1,0 +1,25 @@
+
+
+
+
+[{
+    "id": 1,
+    "nombre": "Cat Chow kitten",
+    "precio" : 950,
+    "cantidad" : 1,
+    "imagen": "imagenes/tienda/Cat Chow kitten.jpg"
+    
+},{
+    "id": 2,
+    "nombre": "Cat Chow Adultos",
+    "precio" : 850,
+    "cantidad" : 1,
+    "imagen": "imagenes/tienda/Cat Chow Adultos.jpg"
+    
+},{
+    "id": 3,
+    "nombre": "Cat Chow Sobres",
+    "precio" : 120,
+    "cantidad" : 1,
+    "imagen": "imagenes/tienda/Cat Chow Sobres.jpg"
+}]

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Carrito</title>
+	
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="fonts/icons.css" rel="stylesheet">
+ 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+
+ 
+    <style>
+		@font-face { font-family: AustieBostKittenKlub; src: url('fonts/AustieBostKittenKlub.ttf'); } 
+	 </style>
+  
+</head><!--/head-->
+
+<body>
+
+	<header>
+
+		<nav class="navbar navbar-fixed-top">
+	 <div class="container-fluid">
+	   <div class="navbar-header">
+		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		   <span class="sr-only">Toggle navigation</span>
+		   <span class="icon-bar"></span>
+		   <span class="icon-bar"></span>
+		   <span class="icon-bar"></span>
+		 </button>
+		 <a class="header__titulo navbar-brand"  href="index.html"><img src="imagenes\logo.png" alt="Logo" class="header__logo" ></a>
+		 <a class="header__titulo2 navbar-brand"  href="index.html">  <h4 class="header__clinica">Clinica Veterinaria</h4></a>
+	   </div>
+	   <div id="navbar" class="navbar-collapse collapse">
+		 <ul class="nav navbar-nav navbar-right">
+		   <li ><a href="index.html">Pagina principal</a></li>
+		   <li ><a href="Peluqueria.html">Peluqueria</a></li>
+		   <li class="active"><a href="tienda.html">Tienda Online</a></li>
+		   <li><a href="turnos.html">Turnos</a></li>
+		   <li><a href="Contactenos.html">Contactenos</a></li>
+		 </ul>
+	   </div><!--/.nav-collapse -->
+	 </div>
+   </nav>
+		   </header>
+			
+
+	<section id="cart_items" class="margenTitulo">
+		<div class="container">
+			<div class="table-responsive cart_info">
+				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu">
+							<td class="producto">Producto</td>
+							<td class="description">Description</td>
+							<td class="precio">Precio</td>
+							<td class="cantidad">Cantidad</td>
+							<td class="total">Total</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody id="listadoCarrito">
+					
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+      
+		<div class="container-fluid">
+		  <div class="row">
+		  <div class="footer_top">  
+		  <div class="col-sm-4 col-md-2 ">
+			<ul class="list-unstyled nav-links">
+			<li class="titulo-footer">Marcas:</li>
+			<li>ProPlan</li>
+			<li>Royal Canin</li>
+			<li>Dog Chow</li>
+			<li>Excellent</li>
+			</ul>
+		  </div>
+		  <div class="col-sm-4 col-md-2">
+			<ul class="list-unstyled nav-links">
+			<li><a href="Contactenos.html" class="titulo-footer">Sucursales:</a></li>
+			<li>742 Evergreen Terrace</li>
+			<li>742 Evergreen Terrace</li>
+			<li>742 Evergreen Terrace</li>
+		
+			</ul>
+		  </div>
+		  <div class="col-sm-4 col-md-2">
+			<ul class="list-unstyled nav-links">
+			<li ><a href="Contactenos.html" class="titulo-footer">Tienda:</a></li>
+			<li>742 Evergreen Terrace</li>
+			<li><a href="Contactenos.html" class="btn btn-tertiary">Tienda Online</a></li>
+			</ul>
+		  </div>
+		  <div class="col-sm-4 col-md-2">
+			<ul class="list-unstyled nav-links">
+			<li><a href="Contactenos.html" class="titulo-footer">Contacto:</a></li>
+			<li>4999-999</li>
+			<li>11-4999-9998</li>
+			<li>742 Evergreen Terrace</li>
+			</ul>
+		  </div>
+		  <div class="col-sm-4 col-md-2">
+			<ul class="list-unstyled nav-links">
+			<li><a href="Contactenos.html" class="titulo-footer">Contacto:</a></li>
+			<li>4999-999</li>
+			<li>11-4999-9998</li>
+			<li>742 Evergreen Terrace</li>
+			</ul>
+		  </div>
+		  <div class="col-sm-4 col-md-2 text-md-center">
+			<ul class="social list-unstyled">
+			<li><a href="Contactenos.html" class="titulo-footer">Redes sociales:</a></li> <br>
+			<div class="espacios">
+			<li><a target="_blank" href="https://www.instagram.com" ><span class="icon-instagram"></span></a></li>
+			<li><a target="_blank" href="https://twitter.com"><span class="icon-twitter"></span></a></li>
+			<li><a target="_blank" href="https://www.facebook.com"><span class="icon-facebook"></span></a></li>
+		  </div>
+			</ul>
+			<p><a href="Contactenos.html" class="btn btn-tertiary">Contactenos</a></p>
+		  </div>
+		  </div> 
+		</div>
+		  <div class="row ">
+		  <div class="col-12 text-center">
+			<div class="copyright mt-5 pt-2">
+			<p><small>&copy; Copyright © 2021 All rights reserved.</small></p>
+			</div>
+		  </div>
+		  </div> 
+		</div>
+		</footer>
+
+
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script><script  src="./script.js"></script> 	
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src='js/tienda/clases.js'></script>
+  <script src='js/tienda/generadorDeProductos.js'></script>
+  <script src='js/tienda/tienda.js'></script>
+  <script src='js/nav.js'></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+[{
+    "id": 13,
+    "nombre": "Comedero Automatico",
+    "precio" : 3000,
+    "imagen": "imagenes/tienda/Comedero Automatico.jpg",
+    "cantidad" : 1
+},  {
+    "id": 14,
+    "nombre": "Rascador Gimnacio Oblicuo",
+    "precio" : 5000,
+    "imagen": "imagenes/tienda/Rascador Gimnacio Oblicuo.jpg",
+    "cantidad" : 1
+},  {
+    "id": 15,
+    "nombre": "Comedero2Perros",
+    "precio" : 700,
+    "imagen": "imagenes/tienda/Comedero2Perros.jpg",
+    "cantidad" : 1
+},  {
+    "id": 16,
+    "nombre": "Ratones",
+    "precio" : 50,
+    "imagen": "imagenes/tienda/Ratones.jpg",
+    "cantidad" : 1
+},  {
+    "id": 17,
+    "nombre": "Rascador",
+    "precio" : 2000,
+    "imagen": "imagenes/tienda/Rascador.jpg",
+    "cantidad" : 1
+},  {
+    "id": 18,
+    "nombre": "Cardina Cepillo",
+    "precio" : 600,
+    "imagen": "imagenes/tienda/Cardina Cepillo.jpg",
+    "cantidad" : 1
+},  {
+    "id": 19,
+    "nombre": "Comedero",
+    "precio" : 150,
+    "imagen": "imagenes/tienda/Comedero.jpg",
+    "cantidad" : 1
+}, {
+    "id": 20,
+    "nombre": "Rascador Gimnacio",
+    "precio" : 4000,
+    "imagen": "imagenes/tienda/Rascador Gimnacio.jpg",
+    "cantidad" : 1
+}]

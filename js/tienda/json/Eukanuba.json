@@ -1,0 +1,25 @@
+[{
+    "id": 4,
+    "nombre": "Eukanuba puppy",
+    "precio" : 800,
+    "imagen": "imagenes/tienda/Eukanuba puppy.jpg",
+    "cantidad" : 1
+},{
+    "id": 5,
+    "nombre": "Eukanuba mini",
+    "precio" : 600,
+    "imagen": "imagenes/tienda/Eukanuba mini.jpg",
+    "cantidad" : 1
+},{
+    "id": 6,
+    "nombre": "Eukanuba Adulto",
+    "precio" : 950,
+    "imagen": "imagenes/tienda/Eukanuba Adulto.jpg",
+    "cantidad" : 1
+},{
+    "id": 7,
+    "nombre": "Eukanuba Sobres",
+    "precio" : 130,
+    "imagen": "imagenes/tienda/Eukanuba Sobres.jpg",
+    "cantidad" : 1
+}]

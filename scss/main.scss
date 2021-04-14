@@ -1,20 +1,23 @@
 @import "index";
-@import "titulo";
-@import "nav";
+@import "header";
 @import "formulario";
 @import "footer";
 @import "retoques";
-@import "mediaq";
 @import "tienda";
 @import "peluqueria";
+@import "carrito";
+
+
 * {
     box-sizing:border-box;
     
 }
 
 body {
-    background: -prefix-linear-gradient(right top, #F4FFEE, white);
-    background: linear-gradient(to bottom left, #F4FFEE, white);
+    
     overflow-x: hidden !important ;
     scroll-behavior: smooth !important;
+  
 }
+
+

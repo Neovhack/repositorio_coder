@@ -1,0 +1,31 @@
+[{
+    "id": 8,
+    "nombre": "Excellent Adultos",
+    "precio" : 1200,
+    "imagen": "imagenes/tienda/excellent adultos.jpg",
+    "cantidad" : 1
+},{
+    "id": 9,
+    "nombre": "Excellent Kitten",
+    "precio" : 800,
+    "imagen": "imagenes/tienda/excellent kitten.png",
+    "cantidad" : 1
+},{
+    "id": 10,
+    "nombre": "Excellent Urinary",
+    "precio" : 950,
+    "imagen": "imagenes/tienda/Excellent Urinary.png",
+    "cantidad" : 1
+},{
+    "id": 11,
+    "nombre": "Excellent Sobres",
+    "precio" : 120,
+    "imagen": "imagenes/tienda/Excellent Sobres.jpg",
+    "cantidad" : 1
+},{
+    "id": 12,
+    "nombre": "Excellent Reduced Calories.jpg",
+    "precio" : 1300,
+    "imagen": "imagenes/tienda/Excellent Reduced Calories.jpg",
+    "cantidad" : 1
+}]
